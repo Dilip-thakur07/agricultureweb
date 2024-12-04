@@ -1,0 +1,538 @@
+.navbar {
+    height: 100px;
+    background: lightblue;
+}
+
+.collapse {
+    margin-left: 300px;
+}
+
+.navbar img {
+    width: 110px;
+    margin-left: 80px;
+}
+
+.nav-link {
+    font-size: 16px;
+    margin-left: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #116530;
+}
+
+.carousel {
+    height: 630px;
+    position: relative;
+    margin-bottom: 50px;
+    opacity: 1;
+    margin-bottom: 150px;
+}
+
+
+.carousel img {
+    height: 630px;
+}
+
+.carousel-item p {
+    position: absolute;
+    bottom: 200px;
+    left: 200px;
+    font-size: 20px;
+}
+
+.carousel-item h1 {
+    position: absolute;
+    bottom: 300px;
+    left: 200px;
+    font-size: 50px;
+
+}
+
+/* ===== image =========*/
+
+.image {
+    height: 1050px;
+    background-color: #116530;
+    position: relative;
+}
+
+.image .inner_box {
+    height: 1000px;
+    width: 100%;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.image .inner_box img {
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    bottom: 50px;
+}
+
+
+.image .inner_box .data {
+    margin-left: 50px;
+    margin-top: 100px;
+    height: 400px;
+    width: 500px;
+}
+
+.image .inner_box .data h1 {
+    font-family: marcellus;
+    font-weight: 300;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+
+}
+
+.image .inner_box .data h2 {
+    font-family: marcellus;
+    color: white;
+    opacity: 0.5;
+    margin-bottom: 20px;
+
+}
+
+.image .inner_box .data p {
+    font-family: marcellus;
+    color: white;
+    opacity: 0.5;
+    font-size: 17px;
+    margin-bottom: 50px;
+
+}
+
+.image .inner_box .data .inner_data {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image .inner_box .data .inner_data i {
+    font-size: 50px;
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+
+.image .inner_box .data .inner_data h3,
+p {
+    font-size: 21px;
+    color: white;
+    font-weight: 400;
+}
+
+.image .inner_box .data .inner_data i {
+    height: 50px;
+    width: 50px;
+    color: white
+}
+
+.containers {
+    width: 90%;
+    height: 800px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containers .part_1 {
+    height: 570px;
+    width: 49%;
+}
+
+.containers .part_1 .inner_part_1 {
+    width: 570px;
+    margin-top: 130px;
+}
+
+.containers .part_1 .inner_part_1 p {
+    margin-left: 27px;
+    color: black !important;
+    font-size: 17px;
+}
+
+.containers .part_1 .inner_part_1 h2 {
+    margin-left: 27px;
+    color: #116530;
+    font-family: marcellus;
+}
+
+.containers .part_1 .inner_part_1 ul li {
+    list-style: none;
+}
+
+.containers .part_1 .inner_part_1 ul li i {
+    margin-right: 10px;
+    color: #116530;
+}
+
+.containers .part_1 .inner_part_1 button {
+    margin-left: 27px;
+    height: 57px;
+    width: 150px;
+    background-color: #116530;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+}
+
+.containers .part_1 img {
+    height: auto;
+    width: auto;
+}
+
+/* ========= carousel ========*/
+
+.blackbox {
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+.blackbox h1 {
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: marcellus;
+    font-size: 30px;
+}
+
+.blackbox h2 {
+    margin-left: 100px;
+    font-family: marcellus;
+    color: white;
+    padding-top: 70px;
+    font-size: 30px;
+    opacity: 0.5;
+}
+
+.blackbox .carousel {
+    width: 85%;
+    margin-left: 100px;
+    position: absolute;
+    top: 200px;
+    /* overflow: hidden; */
+}
+
+.blackbox .inner_carousel {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.blackbox .inner_carousel img {
+    height: inherit;
+    width: inherit;
+    transition: ease-in-out 0.7s;
+    overflow: hidden;
+
+
+}
+
+.blackbox .inner_carousel img:hover {
+    scale: 1.4;
+}
+
+
+.leftBtn,
+.rightBtn {
+    position: absolute;
+    top: calc(50% - 120px);
+    z-index: 1;
+}
+
+.leftBtn {
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border: none;
+}
+
+.rightBtn {
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border: none;
+}
+
+/* ========= test css start ===========*/
+
+.test {
+    width: 100%;
+    margin-top: 200px;
+}
+
+.test .inner_test {
+    text-align: center;
+    font-weight: 300;
+    font-family: marcellus;
+    font-size: 25px;
+}
+
+.test .outer_test {
+    width: 90%;
+    height: 670px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.test .outer_test .information {
+    height: 310px;
+    width: 103%;
+    margin-top: 20px;
+}
+
+.test .outer_test .information img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.test .outer_test .information>h5 {
+    margin-top: 20px;
+}
+
+.test .outer_test .information span {
+    color: #116530;
+    font-size: 20px;
+}
+
+/* ====== work ======*/
+
+
+.work {
+    height: 650px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.work .outer_work {
+    text-align: center;
+    font-weight: 300;
+    font-family: marcellus;
+    font-size: 25px;
+}
+
+.work .inner_work {
+    margin-top: 30px;
+    height: 520px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work .inner_work img {
+    width: inherit;
+    height: 310px;
+    transition: ease-in-out 0.5s;
+}
+
+.work .inner_work img:hover {
+    scale: 1.1;
+}
+
+.work .inner_work h5 {
+    font-weight: 650;
+    font-style: marcellus;
+    padding: 20px 10px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.work .inner_work h5:hover {
+    color: #116530;
+}
+
+.work .inner_work a {
+    text-decoration: none;
+    color: grey;
+    font: 20px;
+    margin-left: 30px;
+}
+
+.work .inner_work a i {
+    color: #116530;
+}
+
+.work .inner_work button {
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    font-style: marcellus;
+    border: none;
+    background-color: white;
+    color: #116530;
+}
+
+.work .inner_work .inner_work_box {
+    height: 30px;
+    width: 120px;
+    background-color: #116530;
+    color: white;
+    text-align: center;
+    border: none;
+    position: absolute;
+    bottom: 210px;
+    right: 0;
+    cursor: pointer;
+}
+
+/* ======== Subscribe =========*/
+
+
+.description {
+    height: 600px;
+    width: 100%;
+}
+
+.Subscribe {
+    height: 200px;
+    width: 100%;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.sub1 {
+    height: 200px;
+    width: 100%;
+}
+
+.sub1 h1 {
+    margin-left: 20px;
+    padding-top: 70px;
+    color: #2D465E;
+    font-weight: 400;
+    font-style: marcellus;
+}
+
+.sub1 h6 {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: grey;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: marcellus;
+}
+
+.sub2 {
+    position: absolute;
+    right: 100px;
+    bottom: 70px;
+
+}
+
+.sub2 input {
+    height: 50px;
+    width: 600px;
+}
+
+.links {
+    width: 100%;
+    height: 300px;
+    background-color: #111111;
+}
+
+.links .inner_links {
+    height: 300px;
+    width: 100%;
+    margin-right: 15px;
+    position: relative;
+}
+
+.links .inner_links h2,
+h6 {
+    font-family: marcellus;
+    margin-top: 10px;
+    color: white;
+}
+
+.links .inner_links h2 {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+.links .inner_links .useful h3 {
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-weight: 600;
+    color: white;
+    font-size: 19px;
+    margin-left: 30px;
+}
+
+.links .inner_links .useful ul li {
+    list-style: none;
+    margin-top: 5px;
+}
+
+
+.links .inner_links .useful ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+.links .inner_links .useful ul li a:hover {
+    color: #116530;
+}
+
+.links .inner_links .useful::after {
+    content: " ";
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background-color: green;
+    top: 29px;
+    left: 30px;
+}
+
+.copyright {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.copyright .headline h6 {
+    font-size: 14px;
+    margin-left: 110px;
+}
+
+.copyright .icon {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+}
+
+.copyright .icon i {
+    font-size: 30px;
+    margin-left: -40px;
+    margin-right: 50px;
+    color: green;
+    background-color: #111111 !important;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.copyright .icon i:hover {
+    background-color: #116530;
+}
